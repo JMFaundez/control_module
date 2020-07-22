@@ -1,0 +1,11 @@
+C
+C	Dimension file for control plugin (control.f)
+C
+C	Nicolo' Fabbiane (nicolo@mech.kth.se), October 2015
+C
+
+	integer,parameter :: nshiov=124
+	integer,parameter :: nyiov=124
+	integer,parameter :: nuiov=5
+	integer,parameter :: ndiov=5
+	integer,parameter :: ngiov=5
