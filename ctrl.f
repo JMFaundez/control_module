@@ -292,7 +292,7 @@ c-----------------------------------------------------------------------
                select case (diotype(i))
 
                case (1) ! Impulse
-                  if (TIME.lt.DT) dio(i) = ampdio(i)/DT;
+                  if (istep.lt.1) dio(i) = ampdio(i)/DT;
 
                case (2) ! Random
                   call random_number(dio(i))
